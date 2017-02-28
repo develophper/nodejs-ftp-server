@@ -1,7 +1,7 @@
 {
   "name": "nodejs-ftp-server",
   "version": "0.0.1",
-  "description": "",
+  "description": "nodejs-ftp-server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,16 @@
     "type": "git",
     "url": "https://github.com/develophper/nodejs-ftp-server.git"
   },
+  "dependencies": {
+    "jsftp": "1.5.5",
+    "ftpd": "0.2.15"
+  },
   "author": "Thomas Ryan",
   "license": "MIT License",
   "bugs": {
     "url": "https://github.com/develophper/nodejs-ftp-server/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
